@@ -1,0 +1,24 @@
+﻿<Page x:Class="practos_5.View.Page1Oblivion"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:practos_5.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page1Oblivion">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="Необходимо установить мод balancedLeveling. Он перебалансирует принцип появления снаряжения и других предметов в игре: Левелинговая система сохранена, поэтому вы не сможете найти оружие определенного качества, не достигнув необходимого уровня. Существа и НПС теперь имеют доступ к более широкому спектру оружия (например, минотавры могут владеть топорами и клейморами, а не только молотами; скелеты обладают всеми видами оружия...). То же самое верно и для существ, призванных вами. Некоторое снаряжение, которое раньше встречалось в игре крайне редко, теперь стало более распространенным среди монстров и бандитов (например, дубинки, сабли, катаны, кожаные наручи...). Наиболее распространенная по лору экипировка (железо, сталь, кольчуга, кожа, мех...) теперь встречается гораздо чаще. Некоторые дружественные к вам по квестам НПС все еще будут совершенствовать свое снаряжение по мере достижения вами новых уровней, но с ограничениями (например, орчиха Мазога будет носить максимум комплект орочьих доспехов, но никак не даэдрических)." Grid.RowSpan="3" Grid.Row="0" TextWrapping="Wrap"/>
+
+    </Grid>
+</Page>

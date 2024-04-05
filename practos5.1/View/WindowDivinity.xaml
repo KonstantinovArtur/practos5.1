@@ -1,0 +1,32 @@
+﻿<Window x:Class="practos_5.View.WindowDivinity"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:practos_5.View"
+        mc:Ignorable="d"
+        Title="WindowDivinity" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Назад" Command="{Binding bakk}" Grid.ColumnSpan="6"/>
+        <Button Content="Руководство по удачному билдостроению" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Click="Button_Click"/>
+        <Button Content="Как ваншотать любого врага" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" Click="Button_Click_1"/>
+        <Button Content="Исправление бага с Даллис" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" Click="Button_Click_2"/>
+        <Button Content="Как поменять облик" Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="2" Click="Button_Click_3"/>
+        <Frame x:Name="Page" Grid.Column="2" NavigationUIVisibility="Hidden" Grid.Row="1" Grid.ColumnSpan="4" Grid.RowSpan="4"/>
+    </Grid>
+</Window>

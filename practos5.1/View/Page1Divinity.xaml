@@ -1,0 +1,24 @@
+﻿<Page x:Class="practos_5.View.Page1Divinity"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:practos_5.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page1Divinity">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="Вам понадобится только один билд, основанный на Восприятии (Wits), в команде, так как из-за механик инициативы большее число подобных билдов станет пустой тратой времени и ресурсов. Вся ваша партия должна сфокусироваться на физическом или магическом уроне. Гибридные команды возможны, но не стоит делать 2-х персонажей, нацеленных только на физический урон, а остальных 2-х – на магический. Подобный подход ведет в никуда. Вместо этого один герой должен специализироваться на одном уроне, а остальные – быть гибридами, то есть уметь наносить как магические, так и физические повреждения. Таким образом, самые эффективные гибридные группы состоят в основном из Призывателей. Гражданские умения не играют большой роли в прокачке. Если персонаж не очень хорош в стелсе (в основном, это прерогатива одинокого волка), то вам стоит просто по максимуму прокачать Воровство (Thievery), Обмен (Barter) и Убеждение (Persuasion). Последний навык и вовсе стоит качать лишь у главного героя. Каких-либо предпочтений к расам и предысториям нет, поэтому не бойтесь экспериментировать. Для хорошей команды вам нужно будет создать 2-3 DD (наносят урон) и 1-2 суппорта (персонажи поддержки)." Grid.RowSpan="3" Grid.Row="0" TextWrapping="Wrap"/>
+
+    </Grid>
+</Page>

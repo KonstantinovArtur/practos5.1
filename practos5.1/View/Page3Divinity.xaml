@@ -1,0 +1,24 @@
+﻿<Page x:Class="practos_5.View.Page3Divinity"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:practos_5.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page3Divinity">
+
+    <Grid>
+            <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="Я не сталкивался с подобной ошибкой, но, вероятно, это потому, что у меня никогда не возникало необходимости телепортировать кого-либо в другую колоду. Этот бой на самом деле не такой сложный, чтобы вам пришлось проявить хоть какой-то скрытый такт. В конце концов, все, что вам нужно сделать, это продержаться несколько ходов. Насколько я знаю, это работает так же, как бои на аренах, в худшем случае вы можете сыграть в цыпленка и спрятаться, при этом вы должны быть уверены, что оставите в живых одного парня + маледи. разделите 2/2 с помощью гео/ поджигателя - очень простой режим, просто используйте червячный тремор, и вы избавитесь от 3/4 силы атаки... честно говоря, вы даже можете убить всех на палубе, никого не потеряв. разделиться 2/2 с помощью аэро / гидро - немного сложнее, но выжить в течение нескольких ходов все равно очень легко. Просто играйте в защиту полная магия - так же просто, как гео/ пиротехника это был мой первый опыт, так что, кто знает, но даже в этом случае у меня не было особых проблем с поддержанием своей вечеринки. Но приятно знать, что произойдет, если я когда-нибудь проявлю сомнительную тактичность.)" Grid.RowSpan="3" Grid.Row="0" TextWrapping="Wrap"/>
+
+    </Grid>
+</Page>
